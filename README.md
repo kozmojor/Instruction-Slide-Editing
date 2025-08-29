@@ -5,4 +5,7 @@ Preprocess
 
 ```
 python preprocess.py --count 20 --out coco_raw_100.pptx
+
+python preprocess.py --
+images 20 --captions 20 --out coco_raw_20.pptx --skip_broken     
 ```
