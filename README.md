@@ -39,7 +39,7 @@ An example input deck can be found at `slides/coco_raw.pptx`. To preprocess and 
 python preprocess.py --images 20 --captions 20 --out slides/coco_raw_20.pptx --skip_broken
 ```
 
-After generating the `.pptx` file above, you can run the demo in `slidedit`. The demo rearranges slides in two stages: **Rematch** and **Relayout**. Rearranged slides after each stage can be found at `slides/coco_rematched.pptx` and `slides/coco_relayout.pptx`.
+After generating the `.pptx` file above, you can run the demo in `slidedit.ipynb`. The demo rearranges slides in two stages: **Rematch** and **Relayout**. Rearranged slides after each stage can be found at `slides/coco_rematched.pptx` and `slides/coco_relayout.pptx`.
 
 ## Limitations
 
