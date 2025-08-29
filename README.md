@@ -23,6 +23,14 @@ To run this demo, please set up an Anaconda environment and install dependencies
 pip install -r requirements.txt
 ```
 
+This demo uses **GPT-5** as the LLM.  
+To run the demo, create a `.env` file in the project root and add the following, replacing the placeholder with your own API key:
+
+```bash
+OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_MODEL=gpt-5
+```
+
 This demo uses the [MS COCO (Common Objects in Context)](https://cocodataset.org/#home) image–caption dataset to generate raw `.pptx` input slides. These input slides intentionally contain __mismatched image–caption pairs__ and __randomized layouts__.  
 
 An example input deck can be found at `slides/coco_raw.pptx`. To preprocess and generate such input slides, run:
